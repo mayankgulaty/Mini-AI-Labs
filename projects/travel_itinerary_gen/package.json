@@ -1,0 +1,28 @@
+{
+  "name": "travel-itinerary-generator",
+  "version": "1.0.0",
+  "description": "Generates personalized travel itineraries using OpenAI and Google Maps",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js --web",
+    "test": "jest"
+  },
+  "keywords": [
+    "travel",
+    "itinerary",
+    "openai",
+    "google-maps"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.20.0",
+    "@googlemaps/google-maps-services-js": "^3.3.34",
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
+
