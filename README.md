@@ -90,6 +90,126 @@ Python • LangChain • PDFminer • OpenAI
 
 [📖 Documentation](./projects/resume_optimizer/README.md) • [💻 Code](./projects/resume_optimizer/)
 
+---
+
+### 🔊 Text to Speech Converter
+
+**Converts any text into natural-sounding speech**
+
+```bash
+Python • OpenAI TTS API • Flask
+```
+
+[📖 Documentation](./projects/text_to_speech/README.md) • [💻 Code](./projects/text_to_speech/)
+
+---
+
+### 🌐 Language Translator
+
+**Translates text between 100+ languages**
+
+```bash
+Python • OpenAI GPT • Flask
+```
+
+[📖 Documentation](./projects/language_translator/README.md) • [💻 Code](./projects/language_translator/)
+
+---
+
+### 💻 Code Explainer
+
+**Explains code in plain English**
+
+```bash
+Python • OpenAI GPT • Flask
+```
+
+[📖 Documentation](./projects/code_explainer/README.md) • [💻 Code](./projects/code_explainer/)
+
+---
+
+### 📧 Email Writer
+
+**Generates professional emails for various purposes**
+
+```bash
+Python • OpenAI GPT • Flask
+```
+
+[📖 Documentation](./projects/email_writer/README.md) • [💻 Code](./projects/email_writer/)
+
+---
+
+### 🍳 Recipe Generator
+
+**Generates personalized recipes based on ingredients**
+
+```bash
+Python • OpenAI GPT • Flask
+```
+
+[📖 Documentation](./projects/recipe_generator/README.md) • [💻 Code](./projects/recipe_generator/)
+
+---
+
+### 📝 Meeting Notes Generator
+
+**Generates structured meeting notes from transcripts**
+
+```bash
+Python • OpenAI GPT • Flask
+```
+
+[📖 Documentation](./projects/meeting_notes_gen/README.md) • [💻 Code](./projects/meeting_notes_gen/)
+
+---
+
+### 📄 PDF Q&A Bot
+
+**Answers questions about PDF documents**
+
+```bash
+Python • OpenAI GPT • PDFminer • Flask
+```
+
+[📖 Documentation](./projects/pdf_qa_bot/README.md) • [💻 Code](./projects/pdf_qa_bot/)
+
+---
+
+### 🔍 Code Review Assistant
+
+**Provides AI-powered code reviews**
+
+```bash
+Python • OpenAI GPT • Flask
+```
+
+[📖 Documentation](./projects/code_review_assistant/README.md) • [💻 Code](./projects/code_review_assistant/)
+
+---
+
+### ✍️ Blog Post Generator
+
+**Generates well-structured blog posts**
+
+```bash
+Python • OpenAI GPT • Flask
+```
+
+[📖 Documentation](./projects/blog_post_generator/README.md) • [💻 Code](./projects/blog_post_generator/)
+
+---
+
+### 🔐 Password Generator
+
+**Generates secure passwords with strength analysis**
+
+```bash
+Python • Flask
+```
+
+[📖 Documentation](./projects/password_generator/README.md) • [💻 Code](./projects/password_generator/)
+
 </div>
 
 ---
@@ -150,6 +270,16 @@ Python • LangChain • PDFminer • OpenAI
 | 💬 Sentiment Classifier | Python | Flask | RoBERTa | ✅ Ready |
 | 🌍 Travel Itinerary Gen | Node.js | Express | OpenAI + Google Maps | ✅ Ready |
 | 📄 Resume Optimizer | Python | Flask | LangChain + OpenAI | ✅ Ready |
+| 🔊 Text to Speech | Python | Flask | OpenAI TTS | ✅ Ready |
+| 🌐 Language Translator | Python | Flask | OpenAI GPT | ✅ Ready |
+| 💻 Code Explainer | Python | Flask | OpenAI GPT | ✅ Ready |
+| 📧 Email Writer | Python | Flask | OpenAI GPT | ✅ Ready |
+| 🍳 Recipe Generator | Python | Flask | OpenAI GPT | ✅ Ready |
+| 📝 Meeting Notes Gen | Python | Flask | OpenAI GPT | ✅ Ready |
+| 📄 PDF Q&A Bot | Python | Flask | OpenAI GPT + PDFminer | ✅ Ready |
+| 🔍 Code Review Assistant | Python | Flask | OpenAI GPT | ✅ Ready |
+| ✍️ Blog Post Generator | Python | Flask | OpenAI GPT | ✅ Ready |
+| 🔐 Password Generator | Python | Flask | Built-in | ✅ Ready |
 
 ---
 
@@ -196,6 +326,56 @@ node app.js --input trip.json --output itinerary.json
 ### Resume Optimizer
 ```bash
 python app.py --resume resume.pdf --job "Software Engineer"
+```
+
+### Text to Speech Converter
+```bash
+python app.py --text "Hello, world!" --voice alloy --output speech.mp3
+```
+
+### Language Translator
+```bash
+python app.py --text "Hello" --from en --to es
+```
+
+### Code Explainer
+```bash
+python app.py --file code.py
+```
+
+### Email Writer
+```bash
+python app.py --purpose "follow-up" --recipient "client" --tone "professional"
+```
+
+### Recipe Generator
+```bash
+python app.py --ingredients "chicken, tomatoes" --cuisine "italian"
+```
+
+### Meeting Notes Generator
+```bash
+python app.py --transcript meeting.txt --output notes.md
+```
+
+### PDF Q&A Bot
+```bash
+python app.py --pdf document.pdf --question "What is the main topic?"
+```
+
+### Code Review Assistant
+```bash
+python app.py --file code.py --language python
+```
+
+### Blog Post Generator
+```bash
+python app.py --topic "AI in Healthcare" --length "long"
+```
+
+### Password Generator
+```bash
+python app.py --length 16 --include-symbols
 ```
 
 ---
